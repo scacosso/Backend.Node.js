@@ -1,0 +1,20 @@
+[
+	{
+		"title": "Teclado",
+		"price": 4500.55,
+		"thumbnail": "https://m.media-amazon.com/images/I/81vl4qsTwTL._AC_SY450_.jpg",
+		"id": 1
+	},
+	{
+		"title": "Mouse",
+		"price": 2500.2,
+		"thumbnail": "https://www.logitech.com/content/dam/logitech/en/products/mice/m171/gallery/m171-gallery-grey-1.png",
+		"id": 2
+	},
+	{
+		"title": "Auriculares",
+		"price": 9500.22,
+		"thumbnail": "https://co.jbl.com/dw/image/v2/AAUJ_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw5b7fa15b/JBL_Quantum_400_Product%20Image_Hero%2002.png?sw=537&sfrm=png",
+		"id": 3
+	}
+]
