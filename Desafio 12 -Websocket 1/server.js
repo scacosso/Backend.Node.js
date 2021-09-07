@@ -80,7 +80,7 @@ routerGlobal.delete("/productos/:id", (req, res) => {
   res.send(prodBorrado);
 });
 
-app.use("/api", routerGlobal);
+app.use("/", routerGlobal);
 
 server.listen(puerto, () => {
   console.log(`servidor escuchando en http://localhost:${puerto}`);

@@ -33,9 +33,9 @@ class Productos {
     if (productoAModificar == undefined) {
       return { error: "No existe el producto que desea actualizar" };
     } else {
-      productoAModificar.titulo = productoNuevo.title;
-      productoAModificar.precio = productoNuevo.price;
-      productoAModificar.urlFoto = productoNuevo.thumbnail;
+      productoAModificar.title = productoNuevo.title;
+      productoAModificar.price = productoNuevo.price;
+      productoAModificar.thumbnail = productoNuevo.thumbnail;
       return productoAModificar;
     }
   }

@@ -10,7 +10,14 @@ socket.on("productos", (productos) => {
   console.log(productos);
   listado.innerHTML = productos
     .map((p) => {
-      return `Nombre: ${p.title} -  Precio: ${p.price} -  img: ${p.thumbnail}`;
+      return `
+      <tr> 
+        <td>${p.title}</td> 
+        <td>${p.price}</td> 
+        <td><img width="50" src=${p.thumbnail} alt="..."></td> 
+      </tr>
+  
+`;
     })
     .join("<br>");
 });
